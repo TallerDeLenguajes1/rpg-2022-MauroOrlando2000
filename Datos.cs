@@ -14,4 +14,6 @@ public class Datos
     public string Alias { get => Apodo; set => Apodo = value; }
     public DateTime Birth { get => Nacimiento; set => Nacimiento = value; }
     public int Age { get => Edad; set => Edad = value; }
+    public int intApodo {get; set;}
+    public int intAfinidad {get; set;}
 }

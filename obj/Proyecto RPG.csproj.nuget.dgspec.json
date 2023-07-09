@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git 4.0\\rpg-2023-MauroOrlando2000\\Proyecto RPG.csproj": {}
+    "D:\\git 3.5\\rpg-2022-MauroOrlando2000\\Proyecto RPG.csproj": {}
   },
   "projects": {
-    "D:\\git 4.0\\rpg-2023-MauroOrlando2000\\Proyecto RPG.csproj": {
+    "D:\\git 3.5\\rpg-2022-MauroOrlando2000\\Proyecto RPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git 4.0\\rpg-2023-MauroOrlando2000\\Proyecto RPG.csproj",
+        "projectUniqueName": "D:\\git 3.5\\rpg-2022-MauroOrlando2000\\Proyecto RPG.csproj",
         "projectName": "Proyecto RPG",
-        "projectPath": "D:\\git 4.0\\rpg-2023-MauroOrlando2000\\Proyecto RPG.csproj",
+        "projectPath": "D:\\git 3.5\\rpg-2022-MauroOrlando2000\\Proyecto RPG.csproj",
         "packagesPath": "C:\\Users\\Orlando Rios\\.nuget\\packages\\",
-        "outputPath": "D:\\git 4.0\\rpg-2023-MauroOrlando2000\\obj\\",
+        "outputPath": "D:\\git 3.5\\rpg-2022-MauroOrlando2000\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Orlando Rios\\AppData\\Roaming\\NuGet\\NuGet.Config"

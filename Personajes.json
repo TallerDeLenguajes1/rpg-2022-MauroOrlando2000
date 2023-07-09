@@ -1,0 +1,193 @@
+[
+  {
+    "CharaInfo": {
+      "affinity": 6,
+      "Name": "Bednar",
+      "Alias": "El gigante",
+      "Birth": "1992-04-30T07:24:50.13Z",
+      "Age": 40,
+      "intApodo": 2,
+      "intAfinidad": 6
+    },
+    "CharaStats": {
+      "speed": 7,
+      "agility": 4,
+      "attack": 12,
+      "armor": 13,
+      "level": 2,
+      "HP": 125
+    }
+  },
+  {
+    "CharaInfo": {
+      "affinity": 5,
+      "Name": "Schimmel",
+      "Alias": "El imparable",
+      "Birth": "2002-02-18T07:21:39.978Z",
+      "Age": 31,
+      "intApodo": 3,
+      "intAfinidad": 5
+    },
+    "CharaStats": {
+      "speed": 14,
+      "agility": 14,
+      "attack": 8,
+      "armor": 5,
+      "level": 2,
+      "HP": 100
+    }
+  },
+  {
+    "CharaInfo": {
+      "affinity": 0,
+      "Name": "Schiller",
+      "Alias": "El gigante",
+      "Birth": "1988-02-10T08:25:55.712Z",
+      "Age": 26,
+      "intApodo": 1,
+      "intAfinidad": 0
+    },
+    "CharaStats": {
+      "speed": 9,
+      "agility": 9,
+      "attack": 10,
+      "armor": 11,
+      "level": 8,
+      "HP": 100
+    }
+  },
+  {
+    "CharaInfo": {
+      "affinity": 5,
+      "Name": "Kuhn",
+      "Alias": "El gigante",
+      "Birth": "1996-11-19T04:14:33.844Z",
+      "Age": 24,
+      "intApodo": 5,
+      "intAfinidad": 5
+    },
+    "CharaStats": {
+      "speed": 13,
+      "agility": 11,
+      "attack": 8,
+      "armor": 5,
+      "level": 4,
+      "HP": 100
+    }
+  },
+  {
+    "CharaInfo": {
+      "affinity": 4,
+      "Name": "Wolf",
+      "Alias": "El barbudo",
+      "Birth": "1991-08-09T16:22:17.259Z",
+      "Age": 23,
+      "intApodo": 3,
+      "intAfinidad": 4
+    },
+    "CharaStats": {
+      "speed": 7,
+      "agility": 9,
+      "attack": 7,
+      "armor": 10,
+      "level": 1,
+      "HP": 100
+    }
+  },
+  {
+    "CharaInfo": {
+      "affinity": 2,
+      "Name": "Roberts",
+      "Alias": "El imparable",
+      "Birth": "1997-11-24T02:33:49.761Z",
+      "Age": 24,
+      "intApodo": 5,
+      "intAfinidad": 2
+    },
+    "CharaStats": {
+      "speed": 11,
+      "agility": 9,
+      "attack": 9,
+      "armor": 9,
+      "level": 1,
+      "HP": 100
+    }
+  },
+  {
+    "CharaInfo": {
+      "affinity": 1,
+      "Name": "Sporer",
+      "Alias": "El b\u00E1rbaro",
+      "Birth": "2001-08-09T02:26:01.087Z",
+      "Age": 37,
+      "intApodo": 3,
+      "intAfinidad": 1
+    },
+    "CharaStats": {
+      "speed": 11,
+      "agility": 6,
+      "attack": 10,
+      "armor": 10,
+      "level": 4,
+      "HP": 100
+    }
+  },
+  {
+    "CharaInfo": {
+      "affinity": 3,
+      "Name": "Harvey",
+      "Alias": "El barbudo",
+      "Birth": "1996-01-05T18:20:20.98Z",
+      "Age": 32,
+      "intApodo": 2,
+      "intAfinidad": 3
+    },
+    "CharaStats": {
+      "speed": 9,
+      "agility": 7,
+      "attack": 9,
+      "armor": 9,
+      "level": 2,
+      "HP": 100
+    }
+  },
+  {
+    "CharaInfo": {
+      "affinity": 2,
+      "Name": "Gulgowski",
+      "Alias": "El barbudo",
+      "Birth": "2001-09-16T05:13:04.96Z",
+      "Age": 31,
+      "intApodo": 4,
+      "intAfinidad": 2
+    },
+    "CharaStats": {
+      "speed": 10,
+      "agility": 12,
+      "attack": 7,
+      "armor": 11,
+      "level": 4,
+      "HP": 100
+    }
+  },
+  {
+    "CharaInfo": {
+      "affinity": 1,
+      "Name": "Labadie",
+      "Alias": "El b\u00E1rbaro",
+      "Birth": "1987-02-09T18:04:23.555Z",
+      "Age": 22,
+      "intApodo": 0,
+      "intAfinidad": 1
+    },
+    "CharaStats": {
+      "speed": 10,
+      "agility": 2,
+      "attack": 9,
+      "armor": 9,
+      "level": 2,
+      "HP": 100
+    }
+  }
+]
+

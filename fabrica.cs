@@ -6,13 +6,11 @@ namespace Personajes
         private caracteristicas caracteristicas = new caracteristicas();
         public Datos CharaInfo {get => Datos; set => Datos = value;}
         public caracteristicas CharaStats {get => caracteristicas;  set => caracteristicas = value;}
-        public void CrearPersonaje()
+        public void CrearPersonaje(Datos datos)
         {
             Random rnd = new Random();
-            string[] Nombres = {"Tristan","Siegfried","Sigurd","Lancelot","Galahad","Arthur","Merlin"};
-            string[] Apodos = {"El barbudo","El bárbaro","El noble","El imparable"};
-            int azar = rnd.Next(7);
-            switch(azar)
+            CharaInfo = datos;
+            switch(CharaInfo.intAfinidad)
             {
                 case 0: CharaInfo.affinity = Datos.Tipo.Saber; break;
                 case 1: CharaInfo.affinity = Datos.Tipo.Archer; break;
@@ -22,18 +20,6 @@ namespace Personajes
                 case 5: CharaInfo.affinity = Datos.Tipo.Assassin; break;
                 case 6: CharaInfo.affinity = Datos.Tipo.Berserker; break;
             }
-
-            azar = rnd.Next(4);
-            CharaInfo.Alias = Apodos[azar];
-
-            azar = rnd.Next(6);
-            CharaInfo.Name = Nombres[azar];
-
-            DateTime MaximaEdad = new DateTime(1980, 1, 1), Aux; 
-            int range = (new DateTime(2001, 1, 1) - MaximaEdad).Days;
-            CharaInfo.Birth = Aux = MaximaEdad.AddDays(rnd.Next(range));
-            CharaInfo.Age = calcularEdad(CharaInfo.Birth);
-            CharaStats.level = rnd.Next(1,10);
 
             switch(CharaInfo.affinity)
             {
@@ -73,6 +59,7 @@ namespace Personajes
                         CharaStats.armor = rnd.Next(11,15);
                 break;
             }
+            CharaStats.level = rnd.Next(1,11);
             if(CharaInfo.affinity == Datos.Tipo.Berserker)
             {
                 CharaStats.HP = 125;
@@ -81,8 +68,6 @@ namespace Personajes
             {
                 CharaStats.HP = 100;
             }
-            CharaInfo = CharaInfo;
-            CharaStats = CharaStats;
         }
 
         public void mostrarPersonaje()
